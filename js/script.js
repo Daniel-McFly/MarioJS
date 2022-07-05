@@ -1,5 +1,5 @@
-
 const mario = document.querySelector('.mario');
+const pipe = document.querySelector('.pipe');
 
 const jump = () => {
     mario.classList.add('jump');
@@ -16,5 +16,19 @@ const jump = () => {
         mario.style.marginLeft = "0";
     }, 590);
 }
+
+const loop = setInterval(() => {
+    
+    const pipePosition = pipe.offsetLeft;
+    const marioPosition = mario.offBottom;
+
+    
+
+    if(pipePosition = 120){
+        pipe.styleanimation = "none";
+        pipe.style.left = '${pipePosition}px';
+
+    }
+}, 10)
 
 document.addEventListener('keydown', jump);

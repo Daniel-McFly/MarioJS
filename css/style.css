@@ -33,7 +33,7 @@
     position: absolute;
     top: 10%;
     width: 400px;
-    animation: cloud-animation 4s infinite linear;
+    animation: cloud-animation 6s infinite linear;
 }
 
 .cloud2{
@@ -61,7 +61,7 @@
     0%{
         right: -400px;
     }
-    60%{
+    50%{
         right: 100%;
     }
     100%{
@@ -73,8 +73,8 @@
     0%{
         right: -400px;
     }
-    35%{
-        right: -400px;
+    50%{
+        right: -10px;
     }
     100%{
         right: 100%;
@@ -86,7 +86,7 @@
         right: -400px;
     }
     50%{
-        right: -400px;
+        right: 100px;
     }
     100%{
         right: 100%;

@@ -17,6 +17,7 @@ const jump = () => {
     }, 590);
 }
 
+const mudanca = 10;
 const loop = setInterval(() => {
     
     const pipePosition = pipe.offsetLeft;

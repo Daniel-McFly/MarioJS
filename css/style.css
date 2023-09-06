@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
 @font-face {
     font-family: game;
     src: url(../fonts/Gamer.ttf);
 }
 
->>>>>>> 5c31b0f (0.0.0.4)
 *{
     margin: 0;
     padding: 0;
@@ -64,10 +61,6 @@
 .jump{
     animation: jump 600ms ease-out;
 }
-<<<<<<< HEAD
-
-@keyframes cloud-animation{
-=======
 .button{
     width: 100%;
     margin-top: 20px;    
@@ -91,7 +84,6 @@
 }
 
     @keyframes cloud-animation{
->>>>>>> 5c31b0f (0.0.0.4)
     0%{
         right: -400px;
     }
